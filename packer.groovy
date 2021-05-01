@@ -1,3 +1,4 @@
+def deploy() {
 node {
 	properties(
 		[parameters(
@@ -45,4 +46,5 @@ node {
 			}
 		}
 	}
+ }
 }
