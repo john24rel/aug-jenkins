@@ -1,3 +1,4 @@
+
 def deployer(){
     node {
           stage("Checkout SCM"){
@@ -22,4 +23,6 @@ def deployer(){
         }
       }
     }
+  }
+}
   
